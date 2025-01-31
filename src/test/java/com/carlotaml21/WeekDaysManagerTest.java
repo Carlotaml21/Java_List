@@ -1,8 +1,10 @@
 package com.carlotaml21;
 
-import static org.junit.jupiter.api.Assertions.*;
-
+import java.util.Arrays;
 import java.util.List;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertNotNull;
 import org.junit.jupiter.api.Test;
 
 public class WeekDaysManagerTest {
@@ -13,6 +15,12 @@ public class WeekDaysManagerTest {
 
         assertNotNull(days);
         assertEquals(7, days.size());
+
+        List<String> expectedDays = Arrays.asList(
+         "Lunes", "Martes", "Miercoles", "Jueves", "Viernes", "Sabado", "Domingo"
+        );
+        assertEquals(expectedDays, days);
     }
-}
+
+    }
 
