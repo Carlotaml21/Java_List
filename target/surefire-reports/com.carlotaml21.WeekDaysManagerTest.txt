@@ -1,11 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.carlotaml21.WeekDaysManagerTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.071 s <<< FAILURE! - in com.carlotaml21.WeekDaysManagerTest
-com.carlotaml21.WeekDaysManagerTest.testGetDaysWeek  Time elapsed: 0.043 s  <<< ERROR!
-java.lang.Error: 
-Unresolved compilation problem: 
-	The method getDaysWeek() is undefined for the type WeekDaysManager
-
-	at com.carlotaml21.WeekDaysManagerTest.testGetDaysWeek(WeekDaysManagerTest.java:12)
-
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.077 s - in com.carlotaml21.WeekDaysManagerTest
