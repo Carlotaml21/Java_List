@@ -14,7 +14,6 @@ public class WeekDaysManagerTest {
         List<String> days = new WeekDaysManager().getDaysWeek();
 
         assertNotNull(days);
-        assertEquals(7, days.size());
 
         List<String> expectedDays = Arrays.asList(
          "Lunes", "Martes", "Miercoles", "Jueves", "Viernes", "Sabado", "Domingo"
@@ -22,5 +21,11 @@ public class WeekDaysManagerTest {
         assertEquals(expectedDays, days);
     }
 
+    @Test
+    public void testDaysListSize(){
+        WeekDaysManager weekDaysManager = new WeekDaysManager();
+        List<String> days = weekDaysManager.getDaysWeek();
+        assertEquals(7, days.size());
+    }
     }
 
