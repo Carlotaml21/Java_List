@@ -1,4 +1,12 @@
 -------------------------------------------------------------------------------
 Test set: com.carlotaml21.WeekDaysManagerTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.085 s - in com.carlotaml21.WeekDaysManagerTest
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.079 s <<< FAILURE! - in com.carlotaml21.WeekDaysManagerTest
+com.carlotaml21.WeekDaysManagerTest.testDeleteDay  Time elapsed: 0.04 s  <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problems: 
+	The method removeDay(String) is undefined for the type WeekDaysManager
+	The method assertTrue(boolean) is undefined for the type WeekDaysManagerTest
+
+	at com.carlotaml21.WeekDaysManagerTest.testDeleteDay(WeekDaysManagerTest.java:34)
+

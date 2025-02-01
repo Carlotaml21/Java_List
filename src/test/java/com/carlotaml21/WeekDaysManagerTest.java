@@ -27,5 +27,15 @@ public class WeekDaysManagerTest {
         List<String> days = weekDaysManager.getDaysWeek();
         assertEquals(7, days.size());
     }
+
+    @Test 
+    public void testDeleteDay(){
+     WeekDaysManager weekDaysManager = new WeekDaysManager();  
+     boolean removed = weekDaysManager.removeDay("Lunes");
+
+     assertTrue(removed);
+    }
+
+    
     }
 
