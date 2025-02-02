@@ -57,10 +57,12 @@ public class WeekDaysManagerTest {
         assertEquals("Domingo", weekDaysManager.getDaysWeek().get(0));
     }
 
-    //@Test
-    /* public void testEmptyList(){
-    WeekDaysManager weekDaysManager = new WeekDaysManager();
+    @Test
+    public void testEmptyList() {
+        WeekDaysManager weekDaysManager = new WeekDaysManager();
 
-    assertTrue(weekDaysManager.getDaysWeek().isEmpty());
-    }*/
+        weekDaysManager.clear();
+
+        assertTrue(weekDaysManager.getDaysWeek().isEmpty());
+    }
 }
