@@ -41,4 +41,8 @@ public class WeekDaysManager {
         daysWeek.sort(String::compareTo);
     }
 
+    public void emptyList(){
+        daysWeek.clear();
+    }
+
 }

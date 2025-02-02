@@ -61,7 +61,7 @@ public class WeekDaysManagerTest {
     public void testEmptyList() {
         WeekDaysManager weekDaysManager = new WeekDaysManager();
 
-        weekDaysManager.clear();
+        weekDaysManager.emptyList();
 
         assertTrue(weekDaysManager.getDaysWeek().isEmpty());
     }
