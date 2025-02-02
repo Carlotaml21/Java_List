@@ -1,4 +1,11 @@
 -------------------------------------------------------------------------------
 Test set: com.carlotaml21.WeekDaysManagerTest
 -------------------------------------------------------------------------------
-Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.12 s - in com.carlotaml21.WeekDaysManagerTest
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.079 s <<< FAILURE! - in com.carlotaml21.WeekDaysManagerTest
+com.carlotaml21.WeekDaysManagerTest.testVerifyDayList  Time elapsed: 0.044 s  <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problem: 
+	Cannot invoke contains(String) on the primitive type boolean
+
+	at com.carlotaml21.WeekDaysManagerTest.testVerifyDayList(WeekDaysManagerTest.java:48)
+

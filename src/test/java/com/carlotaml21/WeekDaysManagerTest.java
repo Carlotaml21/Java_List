@@ -5,6 +5,7 @@ import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 import org.junit.jupiter.api.Test;
 
 public class WeekDaysManagerTest {
@@ -43,16 +44,14 @@ public class WeekDaysManagerTest {
 
     @Test 
     public void testVerifyDayList(){
-     //   WeekDaysManager weekDaysManager = new WeekDaysManager();
+     WeekDaysManager weekDaysManager = new WeekDaysManager();
 
-      //  List<String> days = weekDaysManager.getDaysWeek();
-
-       // assertTrue(days.contains("Viernes"));
+     assertTrue(weekDaysManager.verifyDayList("Viernes"));
     }
 
     @Test 
     public void testAlphabeticList(){
-        // WeekDaysManager weekDaysManager = new WeekDaysManager();
+      // WeekDaysManager weekDaysManager = new WeekDaysManager();
 
        // List<String> sortedDays = weekDaysManager.getSortedDaysWeek();
 

@@ -25,5 +25,12 @@ public class WeekDaysManager{
         return daysWeek.remove(day);
     }
     
+    public String getSpecificDay(String day) {
+        if (daysWeek.contains(day)){
+            return day;
+        }else{
+            return null;
+        }    
+ }
 
 }
