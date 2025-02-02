@@ -32,5 +32,7 @@ public class WeekDaysManager{
             return null;
         }    
  }
-
+    public boolean verifyDayList(String day){
+        return daysWeek.contains(day);
+    }
 }
