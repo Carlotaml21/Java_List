@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.carlotaml21.WeekDaysManagerTest" time="0.079" tests="1" errors="1" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.carlotaml21.WeekDaysManagerTest" time="0.246" tests="1" errors="1" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,9 +15,9 @@
     <property name="user.country" value="ES"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin"/>
-    <property name="sun.java.command" value="C:\Users\Zepe\AppData\Local\Temp\surefire7660913029097573569\surefirebooter14206914634347537888.jar C:\Users\Zepe\AppData\Local\Temp\surefire7660913029097573569 2025-02-02T09-20-44_101-jvmRun1 surefire4082860894293198222tmp surefire_08770960317263262783tmp"/>
+    <property name="sun.java.command" value="C:\Users\Zepe\AppData\Local\Temp\surefire7016444663361813232\surefirebooter10843569325712287351.jar C:\Users\Zepe\AppData\Local\Temp\surefire7016444663361813232 2025-02-02T18-28-56_210-jvmRun1 surefire3796256373903438324tmp surefire_016730502884561399062tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="test" value="com.carlotaml21.WeekDaysManagerTest#testVerifyDayList"/>
+    <property name="test" value="com.carlotaml21.WeekDaysManagerTest#testAlphabeticList"/>
     <property name="surefire.test.class.path" value="C:\Users\Zepe\OneDrive\TECHCAMPF5\Talleres\Taller_JavaList\weekdaysmanagement\target\test-classes;C:\Users\Zepe\OneDrive\TECHCAMPF5\Talleres\Taller_JavaList\weekdaysmanagement\target\classes;C:\Users\Zepe\.m2\repository\org\hamcrest\hamcrest\3.0\hamcrest-3.0.jar;C:\Users\Zepe\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.6.0\junit-jupiter-engine-5.6.0.jar;C:\Users\Zepe\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\Zepe\.m2\repository\org\junit\platform\junit-platform-engine\1.6.0\junit-platform-engine-1.6.0.jar;C:\Users\Zepe\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Zepe\.m2\repository\org\junit\platform\junit-platform-commons\1.6.0\junit-platform-commons-1.6.0.jar;C:\Users\Zepe\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.6.0\junit-jupiter-api-5.6.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\Zepe"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\Zepe\AppData\Local\Temp\surefire7660913029097573569\surefirebooter14206914634347537888.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Zepe\AppData\Local\Temp\surefire7016444663361813232\surefirebooter10843569325712287351.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21.0.5+9-LTS-239"/>
@@ -60,12 +60,12 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="testVerifyDayList" classname="com.carlotaml21.WeekDaysManagerTest" time="0.044">
+  <testcase name="testAlphabeticList" classname="com.carlotaml21.WeekDaysManagerTest" time="0.163">
     <error type="java.lang.Error"><![CDATA[java.lang.Error: 
 Unresolved compilation problem: 
-	Cannot invoke contains(String) on the primitive type boolean
+	The method getSortedDaysWeek(String) in the type WeekDaysManager is not applicable for the arguments ()
 
-	at com.carlotaml21.WeekDaysManagerTest.testVerifyDayList(WeekDaysManagerTest.java:48)
+	at com.carlotaml21.WeekDaysManagerTest.testAlphabeticList(WeekDaysManagerTest.java:56)
 ]]></error>
     <system-err><![CDATA[java.lang.instrument.IllegalClassFormatException: Error while instrumenting com/carlotaml21/WeekDaysManagerTest.
 	at org.jacoco.agent.rt.internal_035b120.CoverageTransformer.transform(CoverageTransformer.java:93)
