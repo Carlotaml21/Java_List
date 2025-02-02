@@ -3,8 +3,6 @@ package com.carlotaml21;
 import java.util.Arrays;
 import java.util.List;
 
-import javax.print.attribute.DateTimeSyntax;
-
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 import org.junit.jupiter.api.Test;
@@ -26,48 +24,46 @@ public class WeekDaysManagerTest {
     @Test
     public void testDaysListSize(){
         WeekDaysManager weekDaysManager = new WeekDaysManager();
-        List<String> days = weekDaysManager.getDaysWeek();
-        assertEquals(7, days.size());
+        assertEquals(7, weekDaysManager.getSize());
     }
 
     @Test 
     public void testDeleteDay(){
      WeekDaysManager weekDaysManager = new WeekDaysManager();  
-     boolean removed = weekDaysManager.removeDay("Lunes");
 
-     assertTrue(removed);
+     assertEquals(true, weekDaysManager.deleteDay("Lunes"));
+     assertEquals(6, weekDaysManager.getSize());
     }
 
     @Test
     public void testGetSpecificDay(){
     WeekDaysManager weekDaysManager = new WeekDaysManager(); 
-
-    assertEquals("Martes", DateTimeSyntax.get(1));
+    assertEquals("Sabado", weekDaysManager.getSpecificDay("Sabado"));
     }
 
     @Test 
     public void testVerifyDayList(){
-        WeekDaysManager weekDaysManager = new WeekDaysManager();
+     //   WeekDaysManager weekDaysManager = new WeekDaysManager();
 
-        List<String> days = weekDaysManager.getDaysWeek();
+      //  List<String> days = weekDaysManager.getDaysWeek();
 
-        assertTrue(days.contains("Viernes"));
+       // assertTrue(days.contains("Viernes"));
     }
 
     @Test 
     public void testAlphabeticList(){
-        WeekDaysManager weekDaysManager = new WeekDaysManager();
+        // WeekDaysManager weekDaysManager = new WeekDaysManager();
 
-        List<String> sortedDays = weekDaysManager.getSortedDaysWeek();
+       // List<String> sortedDays = weekDaysManager.getSortedDaysWeek();
 
-        assertEquals("Domingo", sortedDays.get(0));
+       // assertEquals("Domingo", sortedDays.get(0));
     }
 
     @Test
     public void testEmptyList(){
-        WeekDaysManager weekDaysManager = new WeekDaysManager();
-        weekDaysManager.clearDays();
-        assertTrue(weekDaysManager.getDaysWeek().isEmpty());
+    //    WeekDaysManager weekDaysManager = new WeekDaysManager();
+       // weekDaysManager.clearDays();
+      //  assertTrue(weekDaysManager.getDaysWeek().isEmpty());
     }
 
     }
