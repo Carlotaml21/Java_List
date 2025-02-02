@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: com.carlotaml21.WeekDaysManagerTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.246 s <<< FAILURE! - in com.carlotaml21.WeekDaysManagerTest
+com.carlotaml21.WeekDaysManagerTest.testAlphabeticList  Time elapsed: 0.163 s  <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problem: 
+	The method getSortedDaysWeek(String) in the type WeekDaysManager is not applicable for the arguments ()
+
+	at com.carlotaml21.WeekDaysManagerTest.testAlphabeticList(WeekDaysManagerTest.java:56)
+
